@@ -1,4 +1,6 @@
-﻿namespace CoreApp
+﻿using CoreApp.Folder1;
+
+namespace CoreApp
 {
     public class Use_Class1_Renamed
     {
