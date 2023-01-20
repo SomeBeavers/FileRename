@@ -1,4 +1,4 @@
-﻿namespace FrameworkApp
+﻿namespace CoreApp
 {
     public class Class1
     {

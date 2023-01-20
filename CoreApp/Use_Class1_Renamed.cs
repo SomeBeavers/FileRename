@@ -1,4 +1,4 @@
-﻿namespace FrameworkApp
+﻿namespace CoreApp
 {
     public class Use_Class1_Renamed
     {
