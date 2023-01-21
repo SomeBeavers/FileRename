@@ -4,7 +4,7 @@ public class DuplicatesClassInFile
 {
     
 }
-public class DuplicatesClassInFile
-{
+//public class DuplicatesClassInFile
+//{
     
-}
+//}

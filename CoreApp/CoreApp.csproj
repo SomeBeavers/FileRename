@@ -8,7 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\FrameworkApp\Class1_Renamed.cs" Link="LinkedFiles\Class1_Renamed.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Multi\Multi.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LinkedFiles\" />
   </ItemGroup>
 
 </Project>
