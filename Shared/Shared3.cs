@@ -1,6 +1,6 @@
 ﻿namespace UseShared.Shared
 {
-    public class Shared2
+    public class Shared3
     {
     
     }

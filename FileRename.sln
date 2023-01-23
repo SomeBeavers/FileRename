@@ -21,9 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfCore", "WpfCore\WpfCore.
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{CD3BFF80-4A9C-4BF9-A18A-2737F4AEE959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseShared", "UseShared\UseShared.csproj", "{152FBD86-E541-4AD0-A7CF-57EE0386EE61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseShared", "UseShared\UseShared.csproj", "{152FBD86-E541-4AD0-A7CF-57EE0386EE61}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseShared_Framework", "UseShared_Framework\UseShared_Framework.csproj", "{306523D0-D778-41AA-AD51-A1161308EB6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder1", "SolutionFolder1", "{BD992DDC-1896-489C-B1E6-20BB4984E93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget", "Nuget\Nuget.csproj", "{BFB18082-90DF-46AC-AA68-28CB12CF95AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseNuget", "UseNuget\UseNuget.csproj", "{78AE380F-0F62-4171-B5BF-A02ACB4FD3D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,9 +77,21 @@ Global
 		{306523D0-D778-41AA-AD51-A1161308EB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{306523D0-D778-41AA-AD51-A1161308EB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{306523D0-D778-41AA-AD51-A1161308EB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB18082-90DF-46AC-AA68-28CB12CF95AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB18082-90DF-46AC-AA68-28CB12CF95AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB18082-90DF-46AC-AA68-28CB12CF95AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB18082-90DF-46AC-AA68-28CB12CF95AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AE380F-0F62-4171-B5BF-A02ACB4FD3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AE380F-0F62-4171-B5BF-A02ACB4FD3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AE380F-0F62-4171-B5BF-A02ACB4FD3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AE380F-0F62-4171-B5BF-A02ACB4FD3D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFB18082-90DF-46AC-AA68-28CB12CF95AE} = {BD992DDC-1896-489C-B1E6-20BB4984E93D}
+		{78AE380F-0F62-4171-B5BF-A02ACB4FD3D4} = {BD992DDC-1896-489C-B1E6-20BB4984E93D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB736707-75DD-435F-A7C2-DEC097C53398}
