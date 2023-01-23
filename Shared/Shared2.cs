@@ -1,6 +1,7 @@
-﻿namespace UseShared.Shared;
-
-public class Shared2
+﻿namespace UseShared.Shared
 {
+    public class Shared2
+    {
     
+    }
 }
