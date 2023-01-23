@@ -9,15 +9,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkApp", "FrameworkAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multi", "Multi\Multi.csproj", "{F0607275-7A42-429B-A654-E23887682801}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net6_App", "net6_App\net6_App.csproj", "{5AABB93B-86D3-4361-918C-1AD01CC448FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net6_App", "net6_App\net6_App.csproj", "{5AABB93B-86D3-4361-918C-1AD01CC448FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferencedProject", "ReferencedProject\ReferencedProject.csproj", "{926E702A-C464-4981-AB46-B8B81C4858E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferencedProject", "ReferencedProject\ReferencedProject.csproj", "{926E702A-C464-4981-AB46-B8B81C4858E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferencingProject1", "ReferencingProject1\ReferencingProject1.csproj", "{27A67559-5D23-45BC-9865-66333E30B4CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferencingProject1", "ReferencingProject1\ReferencingProject1.csproj", "{27A67559-5D23-45BC-9865-66333E30B4CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferencingProject2", "ReferencingProject2\ReferencingProject2.csproj", "{D695E527-A7DD-4539-A828-2C595D1339E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferencingProject2", "ReferencingProject2\ReferencingProject2.csproj", "{D695E527-A7DD-4539-A828-2C595D1339E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCore", "WpfCore\WpfCore.csproj", "{B6C0682F-ABA0-4EE8-89E2-77B6B934CE70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfCore", "WpfCore\WpfCore.csproj", "{B6C0682F-ABA0-4EE8-89E2-77B6B934CE70}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{CD3BFF80-4A9C-4BF9-A18A-2737F4AEE959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseShared", "UseShared\UseShared.csproj", "{152FBD86-E541-4AD0-A7CF-57EE0386EE61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseShared_Framework", "UseShared_Framework\UseShared_Framework.csproj", "{306523D0-D778-41AA-AD51-A1161308EB6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,11 +63,24 @@ Global
 		{B6C0682F-ABA0-4EE8-89E2-77B6B934CE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6C0682F-ABA0-4EE8-89E2-77B6B934CE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6C0682F-ABA0-4EE8-89E2-77B6B934CE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152FBD86-E541-4AD0-A7CF-57EE0386EE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152FBD86-E541-4AD0-A7CF-57EE0386EE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152FBD86-E541-4AD0-A7CF-57EE0386EE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152FBD86-E541-4AD0-A7CF-57EE0386EE61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306523D0-D778-41AA-AD51-A1161308EB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306523D0-D778-41AA-AD51-A1161308EB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306523D0-D778-41AA-AD51-A1161308EB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306523D0-D778-41AA-AD51-A1161308EB6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB736707-75DD-435F-A7C2-DEC097C53398}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{152fbd86-e541-4ad0-a7cf-57ee0386ee61}*SharedItemsImports = 5
+		Shared\Shared.projitems*{306523d0-d778-41aa-ad51-a1161308eb6f}*SharedItemsImports = 4
+		Shared\Shared.projitems*{cd3bff80-4a9c-4bf9-a18a-2737f4aee959}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
