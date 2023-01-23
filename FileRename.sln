@@ -27,11 +27,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseShared_Framework", "UseS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder1", "SolutionFolder1", "{BD992DDC-1896-489C-B1E6-20BB4984E93D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget", "Nuget\Nuget.csproj", "{BFB18082-90DF-46AC-AA68-28CB12CF95AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nuget", "Nuget\Nuget.csproj", "{BFB18082-90DF-46AC-AA68-28CB12CF95AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseNuget", "UseNuget\UseNuget.csproj", "{78AE380F-0F62-4171-B5BF-A02ACB4FD3D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseNuget", "UseNuget\UseNuget.csproj", "{78AE380F-0F62-4171-B5BF-A02ACB4FD3D4}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB_Core", "VB_Core\VB_Core.vbproj", "{1858CFEA-D285-471F-A850-3AB1D6D8858B}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_Core", "VB_Core\VB_Core.vbproj", "{1858CFEA-D285-471F-A850-3AB1D6D8858B}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB_Framework", "VB_Framework\VB_Framework.vbproj", "{83C63D70-EE46-4A7B-9675-1C2D649BE6E7}"
 EndProject
@@ -43,7 +43,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cpp1", "Cpp1\Cpp1.vcxproj",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{633EB630-F274-47A2-B33D-67A41FDE2509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cshtml", "MVC\Cshtml.csproj", "{FC3EC05B-B8BE-4B4A-AABD-848492A85F9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cshtml", "MVC\Cshtml.csproj", "{FC3EC05B-B8BE-4B4A-AABD-848492A85F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor", "Blazor\Blazor.csproj", "{74B0A191-2F46-435A-8912-2E4F140A04E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +249,18 @@ Global
 		{FC3EC05B-B8BE-4B4A-AABD-848492A85F9A}.Release|x64.Build.0 = Release|Any CPU
 		{FC3EC05B-B8BE-4B4A-AABD-848492A85F9A}.Release|x86.ActiveCfg = Release|Any CPU
 		{FC3EC05B-B8BE-4B4A-AABD-848492A85F9A}.Release|x86.Build.0 = Release|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Debug|x64.Build.0 = Debug|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Debug|x86.Build.0 = Debug|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Release|x64.ActiveCfg = Release|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Release|x64.Build.0 = Release|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Release|x86.ActiveCfg = Release|Any CPU
+		{74B0A191-2F46-435A-8912-2E4F140A04E7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
