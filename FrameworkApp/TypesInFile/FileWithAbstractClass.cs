@@ -1,20 +1,20 @@
 ﻿#region header region
 
 // FileRename
-// FileWithInterface.cs
+// FileWithAbstractClass.cs
 
 #endregion
 
 namespace ManyClassesGenerated;
 
-public abstract class FileWithInterface
+public abstract class FileWithAbstractClass
 {
     public abstract void Test();
 }
 
 public class UseFileWithInterface
 {
-    public void Test(FileWithInterface fileWithInterface)
+    public void Test(FileWithAbstractClass fileWithAbstractClass)
     {
         var t = 0;
     }
