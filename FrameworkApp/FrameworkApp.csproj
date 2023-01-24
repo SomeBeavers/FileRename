@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1_Renamed.cs" />
-    <Compile Include="ITestInterfaceFromFramework.cs" />
+    <Compile Include="ITestInterfaceFromFramework.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Use_Class1_Renamed.cs" />
