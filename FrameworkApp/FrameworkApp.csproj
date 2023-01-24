@@ -46,6 +46,11 @@
     <Compile Include="Class1_Renamed.cs" />
     <Compile Include="Empty Files\OnlyNamespace.cs" />
     <Compile Include="Empty Files\OnlyUsings.cs" />
+    <Compile Include="EnumFileWithCustomProperties.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generator>test</Generator>
+      <CustomToolNamespace>test</CustomToolNamespace>
+    </Compile>
     <Compile Include="ITestInterfaceFromFramework.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>

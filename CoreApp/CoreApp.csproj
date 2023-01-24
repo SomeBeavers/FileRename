@@ -27,6 +27,11 @@
     <Compile Update="ITestInterfaceFromCore.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
+    <Compile Update="WithCustomProperties.cs">
+      <Generator>test</Generator>
+      <CustomToolNamespace>test</CustomToolNamespace>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
 </Project>
