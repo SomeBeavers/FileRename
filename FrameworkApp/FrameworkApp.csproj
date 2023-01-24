@@ -59,7 +59,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RenameToExistingFile.cs" />
-    <Compile Include="TypesInFile\FileWithInterface1.cs" />
+    <Compile Include="TypesInFile\FileWithInterface.cs" />
     <Compile Include="TypesInFile\GenericClass.cs" />
     <Compile Include="TypesInFile\InSeveralFiles_Renamed.cs" />
     <Compile Include="TypesInFile\InSeveralFiles2.cs" />
