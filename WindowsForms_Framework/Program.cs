@@ -14,6 +14,7 @@ namespace WindowsForms_Framework
         [STAThread]
         static void Main()
         {
+            var string1 = Resource1.String1;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
