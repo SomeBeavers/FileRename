@@ -9,4 +9,7 @@ namespace Blazor.Pages;
 
 public partial class Counter
 {
+    private void Test()
+    {
+    }
 }
