@@ -68,6 +68,7 @@
     <Compile Include="TypesInFile\PartialClass.Part1.cs" />
     <Compile Include="TypesInFile\PartialClasss.Part2.cs" />
     <Compile Include="TypesInFile\UseMyAttribute.cs" />
+    <Compile Include="Use_Big.cs" />
     <Compile Include="Use_Class1_Renamed.cs" />
   </ItemGroup>
   <ItemGroup>
