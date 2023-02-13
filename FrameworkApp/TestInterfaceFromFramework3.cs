@@ -10,7 +10,7 @@ namespace FrameworkApp;
 /// <summary>
 /// TestInterfaceFromFramework3 derives from ITestInterfaceFromFramework
 /// </summary>
-class MyTestInterfaceFromFramework3 : IMyTestInterfaceFromFramework
+class TestInterfaceFromFramework3 : ITestInterfaceFromFramework
 {
     public void Test()
     {

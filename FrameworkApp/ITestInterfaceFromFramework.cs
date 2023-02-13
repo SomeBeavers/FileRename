@@ -1,15 +1,15 @@
 ﻿namespace FrameworkApp
 {
     // I am ITestInterfaceFromFramework interface.
-    public interface IMyTestInterfaceFromFramework
+    public interface ITestInterfaceFromFramework
     {
         void Test();
     }
 
     /// <summary>
-    /// TestInterfaceFromFramework2 derives from ITestInterfaceFromFramework
+    /// TestInterfaceFromFramework102 derives from ITestInterfaceFromFramework
     /// </summary>
-    class TestInterfaceFromFramework2 : IMyTestInterfaceFromFramework
+    class TestInterfaceFromFramework102 : ITestInterfaceFromFramework
     {
         public void Test()
         {

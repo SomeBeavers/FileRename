@@ -1,16 +1,16 @@
 ﻿#region header region
 
 // FileRename
-// MyTestInterfaceFromFramework.cs
+// TestInterfaceFromFramework.cs
 
 #endregion
 
 namespace FrameworkApp;
 
 /// <summary>
-/// MyTestInterfaceFromFramework derives from IMyTestInterfaceFromFramework
+/// TestInterfaceFromFramework derives from ITestInterfaceFromFramework
 /// </summary>
-class MyTestInterfaceFromFramework : IMyTestInterfaceFromFramework
+class TestInterfaceFromFramework : ITestInterfaceFromFramework
 {
     public void Test()
     {
