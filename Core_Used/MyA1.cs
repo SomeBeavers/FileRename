@@ -1,12 +1,12 @@
 ﻿#region header region
 
 // FileRename
-// A.cs
+// MyA.cs
 
 #endregion
 
 namespace Core_Used;
 
-public class A
+public class MyA1
 {
 }

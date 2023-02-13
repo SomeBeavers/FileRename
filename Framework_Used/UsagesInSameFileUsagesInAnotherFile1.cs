@@ -10,9 +10,9 @@ namespace Framework_Used;
 /// <summary>
 ///     <see cref="UsagesInSameFile" /> = UsagesInSameFile.cs.cs.
 /// </summary>
-public class UsagesInSameFileUsagesInAnotherFile : UsagesInSameFile
+public class UsagesInSameFileUsagesInAnotherFile1 : UsagesInSameFile
 {
-    public UsagesInSameFileUsagesInAnotherFile(UsagesInSameFile usagesInSameFile)
+    public UsagesInSameFileUsagesInAnotherFile1(UsagesInSameFile usagesInSameFile)
     {
     }
 }
